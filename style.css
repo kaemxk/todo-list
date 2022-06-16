@@ -19,6 +19,12 @@ body {
 	gap: 50px;
 }
 
+@media (max-width: 520px) {
+	.row {
+		flex-direction: column;
+	}
+}
+
 input {
 	border-radius: 10px;
 	height: 40px;
