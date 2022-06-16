@@ -22,6 +22,16 @@ body {
 @media (max-width: 520px) {
 	.row {
 		flex-direction: column;
+		gap: 10px;
+		align-items: center;
+	}
+	.to-do-list {
+		align-items: center;
+		flex-direction: column;
+	}
+	.text {
+		max-width: 280px;
+		word-wrap: break-word;
 	}
 }
 
@@ -70,6 +80,8 @@ input:focus {
 
 .text {
 	font-size: 24px;
+	max-width: 750px;
+	word-wrap: break-word;
 }
 
 .button {
